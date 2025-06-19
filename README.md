@@ -5,8 +5,7 @@
 * [IronRuby Source Code](https://github.com/MilesLitteral/ironruby?tab=readme-ov-file) (incase you need to install the nuget package from a local src)
 
 HOW IT WORKS
-* You will need a copy of ![GlitchEnzo's NuGet Package](https://github.com/GlitchEnzo/NuGetForUnity/releases/tag/v4.4.0) for Unity
-* You can get my fork of this project here: https://github.com/MilesLitteral/NuGetForUnity
+* You will need a copy of GlitchEnzo's NuGet Package (https://github.com/GlitchEnzo/NuGetForUnity/releases/tag/v4.4.0) for Unity
 
 Using NuGet, Install IronRuby, it will install to the directory of the Unity Build you are currently using,
 You shouldn't have to worry about .NET version in Unity as NuGet will resolve all instances of scope in C#.
@@ -29,4 +28,4 @@ See Also:
 * https://docs.unity3d.com/Manual/ScriptingImportantClasses.html
 
 Bugs:
-N/A (For now, no known bugs)
+Fixed all errors with RubyScript using the String class instead of string, deprecated RubyScriptEditor class. This library now works out of the box with Unity3d!
