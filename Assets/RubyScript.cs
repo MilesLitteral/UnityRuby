@@ -3,7 +3,7 @@ using System.Collections;
 
 public class RubyScript : MonoBehaviour {
 
-    public String filePath;
+    public string filePath;
     
     // Use this for initialization
     void Start () {
