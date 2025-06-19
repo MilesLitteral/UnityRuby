@@ -4,8 +4,8 @@ using UnityEditor;
 using UnityEditorInternal;
 using System.Collections;
 
-[CustomEditor(typeof(RubyScript), true)]
-public class RubyScriptEditor : Editor {
+//[CustomEditor(typeof(RubyScript), true)]
+public class RubyScriptEditor {/*: Editor {
 
     public ReorderableList InventoryList;
 
@@ -155,4 +155,5 @@ public class RubyScriptEditor : Editor {
 	    void Update () {
 	
 	    }
+}*/
 }
